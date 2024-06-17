@@ -1,8 +1,12 @@
 {
 	"dependencies": {
+		"cheerio": "^1.0.0-rc.12",
 		"tsx": "^4.15.6"
 	},
 	"scripts": {
-		"start": "tsx index.ts"
+		"convert": "tsx index.ts"
+	},
+	"devDependencies": {
+		"@types/node": "^20.14.2"
 	}
 }
